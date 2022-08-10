@@ -1,0 +1,30 @@
+.layout {
+  &-header {
+    background-color: #7dbcea !important;
+    .ant-typography {
+      color: black !important;
+      margin: 0;
+    }
+
+    &__left-side {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &-logo {
+        margin-right: 14px;
+      }
+    }
+  }
+
+  &-content {
+    width: calc(100% - 2px);
+    display: flex;
+    &__children {
+      color: black;
+    }
+    &__breadcrumb {
+      padding: 0 10px;
+      margin: 16px 0;
+    }
+  }
+}
